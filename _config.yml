@@ -1,25 +1,25 @@
-title: An awesome site title
+title: Jekyll Academic
 navbar_title: Jekyll Academic
 
 author:
   name: jekyll-academic # Your name
-  email: your-email@domain.com
+  email: liang.mike.to@gmail.com
 
 description: Jekyll academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia # description of your site
 
-url: "jekyll-academic.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://jekyll-academic.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # The subpath of your site, e.g. /blog
 
 jekyllacademic:
-  homepage_title: "Hello world" # Your homepage title
+  homepage_title: "Jekyll Academic" # Your homepage title
   disqusname: # Your disqus sitename
-  footer: Author, Year # Your name, Year
+  footer: Jekyll Academic, 2021 # Your name, Year
   contentlicense: "MIT" # Choose either one of these to put: MIT, Commons Clause, CC BY 4.0, CC BY-NC 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC BY-NC-SA 4.0, CC BY-NC-SA 4.0, CC BY-SA 4.0
   socials:
-    twitter: twitter # Your twitter username
-    github: github # Your github username
-    linkedin: unavailable # Your linkedin
-    keybase: keybase # Your keybase
+    twitter: # Your twitter username
+    github: yak-fumblepack/jekyll-academic # Your github username
+    linkedin: # Your linkedin
+    keybase: # Your keybase
 
 # No need to edit this part, however if you want to, that's fine as well
 
@@ -27,6 +27,8 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    disable: true
 
 collections:
   pages:

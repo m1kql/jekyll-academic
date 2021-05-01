@@ -39,7 +39,7 @@ section {
   }
 
   h3 {
-    font-size: 120%;
+    font-size: 115%;
   }
 
   h4 {
@@ -128,7 +128,7 @@ nav {
 
   h2 {
     margin: 1rem 0;
-    font-size: 120%;
+    font-size: 130%;
   }
 
   h3 {
@@ -173,7 +173,10 @@ code {
 }
 
 pre {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #eee;
   code {
+    border-radius: 5px;
     font-size: 125%;
   }
 }
