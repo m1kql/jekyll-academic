@@ -1,0 +1,21 @@
+<nav>
+  <ul>
+    <li>
+      <a class="text-muted" href="/">
+        {% if site.navbar_title %}
+          {{ site.navbar_title | replace: ' ', "&nbsp;" | replace: "-", "&nbsp;"}}
+        {% else %}
+          {{ site.title | replace: ' ', "&nbsp;"}}
+        {% endif %}
+      </a>
+    </li>
+    <br />
+    {% for item in site.data.nav.links %}
+    <li>
+      <a href="{{ item.url }}" {% if item.url == page.url %} class="active" {% endif %}>
+      {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -2,15 +2,20 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-academic"
-  spec.version       = "0.1.0"
+  spec.version       = "0.0.0"
   spec.authors       = ["yak-fumblepack"]
   spec.email         = ["liang.mike.to@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Jekyll academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia"
+  spec.homepage      = "https://jekyll-academic.netlify.app"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 4.2"
+  spec.add_runtime_dependency "jekyll-seo-tag"
+  spec.add_runtime_dependency "jekyll-sitemap"
+
+  spec.add_development_dependency "jekyll", "~> 4.2"
+  spec.add_development_dependency "bundler", "~> 2.2.16"
 end

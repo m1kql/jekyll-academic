@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="posts">
+  <h1 style="color: #cc0000;">Tag #{{page.tag}}</h1>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
