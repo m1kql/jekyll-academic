@@ -1,5 +1,8 @@
 # Jekyll Academic
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-academic.svg)](https://badge.fury.io/rb/jekyll-academic)
+![Gem](https://img.shields.io/gem/dv/jekyll-academic/1.0.0?color=green)
+
 Jekyll Academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia. It is a simple no nonsense theme that offers many features.
 
 [Live preview](https://jekyll-academic.netlify.app)
@@ -69,9 +72,24 @@ Have fun building your amazing site!
 
 ## Contributing
 
-Bugfixes and features are most welcome and appreciated. Please make the pull request onto the `dev` branch.
+Bugfixes and features are most welcome and appreciated. For features and bugfixes, please make the pull request onto the `dev` branch. If you're looking to improve the documentation, make the pull request onto `docs-pages`.
 
 Is there a bug? Feel free to open an issue.
+
+## Development 
+
+Fork this repo
+
+```shell
+$ git clone https://github.com/yak-fumblepack/jekyll-academic.git/
+$ cd jekyll-academic/
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+And view it on [localhost:4000]()
+
+Then make your amazing contributions and changes!
 
 ## License
 
