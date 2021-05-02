@@ -1,7 +1,7 @@
 # Jekyll Academic
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-academic.svg)](https://badge.fury.io/rb/jekyll-academic)
-![Gem](https://img.shields.io/gem/dv/jekyll-academic/1.0.0?color=green)
+![Gem](https://img.shields.io/gem/v/jekyll-academic?color=orange&style=plastic)
+![Gem](https://img.shields.io/gem/dt/jekyll-academic?color=blue&style=plastic)
 
 Jekyll Academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia. It is a simple no nonsense theme that offers many features.
 
