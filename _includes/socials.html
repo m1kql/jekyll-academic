@@ -1,0 +1,27 @@
+{% assign socials = site.jekyllacademic.socials %}
+
+{% if socials.twitter %}
+  <a href="https://twitter.com/{{ socials.twitter | cgi_escape | escape }}" target="_blank" style="color: #1da1f2">
+    <span class="bi bi-twitter"></span>
+  </a>
+{% endif %}
+{% if socials.github %}
+  <a href="https://github.com/{{ socials.github }}" target="_blank" style="color: #000;">
+    <span class="bi bi-github"></span>
+  </a>
+{% endif %}
+{% if socials.linkedin %}
+  <a href="https://www.linkedin.com/in/{{ socials.linkedin | cgi_escape | escape }}" target="_blank" style="color: #0077b5;">
+    <span class="bi bi-linkedin"></span>
+  </a>
+{% endif %}
+{% if site.author.email %}
+  <a href="mailto:{{ site.email }}" target="_blank" style="color: #666">
+    <span class="bi bi-envelope-open-fill"></span>
+  </a>
+{% endif %}
+{% if socials.keybase %}
+  <a href="https://keybase.io/{{ socials.keybase | cgi_escape | escape}}" target="_blank" style="color: #FFA500">
+    <span class="fa fa-keybase"></span>
+  </a>
+{% endif %}
