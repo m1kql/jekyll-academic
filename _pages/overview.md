@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<h1 style="color: #cc0000;">Screenshots</h1>
+<h1 style="color: #cc0000;">Overview</h1>
