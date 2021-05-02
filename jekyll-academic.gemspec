@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Mike Liang"]
   spec.email         = ["liang.mike.to@gmail.com"]
 
-  spec.summary       = "Jekyll academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia"
+  spec.summary       = "A simple beautiful theme for any academic usecase."
   spec.homepage      = "https://jekyll-academic.netlify.app"
   spec.license       = "MIT"
   spec.description   = "Jekyll academic is a lightweight no nonsense theme for any academic usecase."
