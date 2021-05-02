@@ -16,6 +16,7 @@ Jekyll academic is a simple no nonsense theme that offers many features.
 - Custom 404 page
 - SEO optimised (robots.txt, sitemap.xml, jekyll-seo-tag)
 
+[View the Github](https://github.com/yak-fumblepack/jekyll-academic)
 [Get started]({{ site.baseurl }}/overview) \
 [Read the docs]({{ site.baseurl }}/docs) \
 [See some screenshots]({{ site.baseurl }}/gallery)

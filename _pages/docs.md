@@ -19,6 +19,9 @@ usemathjax: true
 
 <hr>
 
+If you would like to view the site structure for this theme, head over to [github/yak-fumblepack/jekyll-academic/tree/docs-pages](https://github.com/yak-fumblepack/jekyll-academic/tree/docs-pages) to see it.
+
+<hr>
 <h2 id="configyml"><a href="#top" class="primary"><span class="bi bi-link-45deg"></span></a> Configuring the <code>_config.yml</code></h2> 
 
 Here are the list of global variables that you can edit in the `_config.yml` file:
@@ -81,7 +84,7 @@ plugins:
 
 <h2 id="othconfig"><a href="#top" class="primary"><span class="bi bi-link-45deg"></span></a> Other configurations</h2> 
 
-To configure your navigation sidebar, go to the `_data/` directory and edit the YAML file.
+To configure your navigation sidebar, go to the `_data/` directory and create a YAML file named `nav.yml`.
 
 It is presented in this format:
 
