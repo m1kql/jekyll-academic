@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
-<h1 style="color: #cc0000;">Example Projects</h1> 
+<h1 style="color: #cc0000;">Example projects</h1>
 {% assign ordering = site.projects | sort: "order" %}
 {% for project in ordering %}
 {% if project.pinned %}
   <div class="row py-2">
     <div class="col">
       <div class="card border border-4">
+        {% if project.banner_image %}
+        <div class="p-3">
+          <img class="card-img-top rounded" src="{{ project.banner_image }}" alt="Banner image for project">
+        </div>
+        {% endif %}
         <div class="card-body">
-          <h1 class="card-title pb-2" style="color: #333; font-size: 120%">{{ project.title }}</h1>
+          <h1 class="card-title pb-2" style="color: #333; font-size: 120%;">{{ project.title }}</h1>
           <h6 class="text-muted mb-2 card-subtitle" style="font-size: 110%">{{ project.stack }}</h6>
           <p class="card-text">{{ project.snippet }}</p>
-          <a href="{{ site.baseurl }}{{ project.url }}">Read more</a>
+          <span>{% if project.githublink %}<a href="{{ project.githublink }}" style="color: #000;" target="_blank"><span class="fa fa-github fa-lg"></span></a>{% endif %}</span><a href="{{ site.baseurl }}{{ project.url }}">&nbsp;Read more</a>
         </div>
       </div>
     </div>
@@ -22,10 +27,10 @@ layout: default
     <div class="col">
       <div class="card">
         <div class="card-body">
-          <h1 class="card-title pb-2" style="color: #333; font-size: 120%">{{ project.title }}</h1>
+          <h1 class="card-title pb-2" style="color: #333; font-size: 120%;">{{ project.title }}</h1>
           <h6 class="text-muted mb-2 card-subtitle" style="font-size: 110%">{{ project.stack }}</h6>
           <p class="card-text">{{ project.snippet }}</p>
-          <a href="{{ site.baseurl }}{{ project.url }}">Read more</a>
+          <span>{% if project.githublink %}<a href="{{ project.githublink }}" style="color: #000;" target="_blank"><span class="fa fa-github fa-lg"></span></a>{% endif %}</span><a href="{{ site.baseurl }}{{ project.url }}">&nbsp;Read more</a>
         </div>
       </div>
     </div>
