@@ -21,6 +21,17 @@ Jekyll Academic is a lightweight theme for any academic usecase. Perfect for por
 - [License](#license)
 
 ## Installation
+
+### Quick install
+
+Download this [file](https://downgit.github.io/#/home?url=https://github.com/yak-fumblepack/jekyll-academic/blob/dev/scripts/bundle-install.sh) and run it.
+
+```shell
+$ ./bundle-install.sh
+```
+
+### Longer installation process
+
 Add this to your Jekyll site's Gemfile:
 
 ```ruby
