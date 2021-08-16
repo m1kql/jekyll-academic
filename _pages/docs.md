@@ -26,30 +26,30 @@ If you would like to view the site structure for this theme, head over to [githu
 
 Here are the list of global variables that you can edit in the `_config.yml` file:
 
-| name | default value | how to use |
-| --- | --- | --- |
-| `title` | Jekyll Academic | The title of your site, put whatever name you want there |
-| `navbar_title` | Jekyll Academic | The heading on the sidebar, put the same or different name as your site title |
-| `author.name` | jekyll-academic | Put your name |
-| `author.email` |  | Put your email here |
-| `description` | repo description | Put your site description here |
-| `url` | [jekyll-academic.netlify.app](https://jekyll-academic.netlify.app) | Put your base hostname & protocol for your site. |
-| `baseurl` |  | You can put your baseurl for this site here. If you don't have one, it's fine to leave it blank |
+| name           | default value                                                      | how to use                                                                                      |
+| -------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| `title`        | Jekyll Academic                                                    | The title of your site, put whatever name you want there                                        |
+| `navbar_title` | Jekyll Academic                                                    | The heading on the sidebar, put the same or different name as your site title                   |
+| `author.name`  | jekyll-academic                                                    | Put your name                                                                                   |
+| `author.email` |                                                                    | Put your email here                                                                             |
+| `description`  | repo description                                                   | Put your site description here                                                                  |
+| `url`          | [jekyll-academic.netlify.app](https://jekyll-academic.netlify.app) | Put your base hostname & protocol for your site.                                                |
+| `baseurl`      |                                                                    | You can put your baseurl for this site here. If you don't have one, it's fine to leave it blank |
 
 <br />
 
 Here are the list of Jekyll Academic variables that you can edit in the `_config.yml` file (these variables can be found under the "`jekyllacademic:`" key value):
 
-| name | default value | how to use |
-| --- | --- | --- |
-| `homepage_title` | Hello World! | The title of your index.md/home page |
-| `disqusname` |  | If you choose to have comments, put your disqus site shortname here. |
-| `footer` | Jekyll Academic, 2021 | Put your name here and the copyright date |
-| `contentlicense` | MIT | Choose between the list of licenses provided in the comment in the `_config.yml file` |
-| `socials.twitter` |  | Put your twitter username here |
-| `socials.github` |  | Put your github username here, or you can put a link to a specific repo (e.g `github: yak-fumblepack/jekyll-academic`) |
-| `socials.linkedin` |  | Put your specific linkedin username |
-| `socials.keybase` |  | Put your keybase username here |
+| name               | default value         | how to use                                                                                                             |
+| ------------------ | --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `homepage_title`   | Hello World!          | The title of your index.md/home page                                                                                   |
+| `disqusname`       |                       | If you choose to have comments, put your disqus site shortname here.                                                   |
+| `footer`           | Jekyll Academic, 2021 | Put your name here and the copyright date                                                                              |
+| `contentlicense`   | MIT                   | Choose between the list of licenses provided in the comment in the `_config.yml file`                                  |
+| `socials.twitter`  |                       | Put your twitter username here                                                                                         |
+| `socials.github`   |                       | Put your github username here, or you can put a link to a specific repo (e.g `github: yak-fumblepack/jekyll-academic`) |
+| `socials.linkedin` |                       | Put your specific linkedin username                                                                                    |
+| `socials.keybase`  |                       | Put your keybase username here                                                                                         |
 
 <br/>
 
@@ -137,12 +137,12 @@ Add the page name to `_data/nav.yml` in order to have it show up on the sidebar.
 
 There are configurable options for Pages, Blog and Projects. Use this in the frontmatter.
 
-| name | type | what it does |
-| --- | --- | --- |
-| `usehighlight:` | boolean | enables highlightjs syntax highlighting | 
-| `comments:` | boolean | enables disqus comments |
-| `usemathjax:` | boolean | enables mathjax support |
-| `usechartjs` | boolean | enables chartjs support |
+| name            | type    | what it does                            |
+| --------------- | ------- | --------------------------------------- |
+| `usehighlight:` | boolean | enables highlightjs syntax highlighting |
+| `comments:`     | boolean | enables disqus comments                 |
+| `usemathjax:`   | boolean | enables mathjax support                 |
+| `usechartjs`    | boolean | enables chartjs support                 |
 
 <h3 id="blog"><a href="#top" class="primary"><span class="bi bi-link-45deg"></span></a> Blog</h3>
 
@@ -158,8 +158,8 @@ tags: [Tag 1, Separated by commas, tag 3]
 ---
 ```
 
-| name | type | what it does |
-| --- | --- | --- |
+| name        | type    | what it does            |
+| ----------- | ------- | ----------------------- |
 | `comments:` | boolean | enables disqus comments |
 
 <h3 id="projects"><a href="#top" class="primary"><span class="bi bi-link-45deg"></span></a> Projects</h3> 
@@ -179,10 +179,11 @@ snippet: "A snippet to show on the project card"
 
 There are also some other configurable options:
 
-| name | type | what it does |
-| --- | --- | --- |
-| `order:` | integer | determines the ordering of your post, 1 being first |
-| `pinned:` | boolean | highlights and pins the project |
+| name            | type    | what it does                                        |
+| --------------- | ------- | --------------------------------------------------- |
+| `order:`        | integer | determines the ordering of your post, 1 being first |
+| `pinned:`       | boolean | highlights and pins the project                     |
+| `banner_image:` | string  | path to your image, or a url                        |
 
 <hr>
 

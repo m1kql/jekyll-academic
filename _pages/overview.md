@@ -5,6 +5,13 @@ usehighlight: true
 
 <h1 style="color: #cc0000;">Overview</h1> 
 
+## In a rush?
+
+```shell
+$ curl -s -L https://raw.githubusercontent.com/yak-fumblepack/jekyll-academic/master/scripts/bundle-install.sh | bash
+```
+
+
 ## Install as a Gem
 
 Add this line to your Jekyll site's `Gemfile`:

@@ -1,7 +1,7 @@
 # Jekyll Academic
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-academic.svg)](https://badge.fury.io/rb/jekyll-academic)
-![Gem](https://img.shields.io/gem/dv/jekyll-academic/1.0.0?color=green)
+![Gem](https://img.shields.io/gem/v/jekyll-academic?color=orange&style=plastic)
+![Gem](https://img.shields.io/gem/dt/jekyll-academic?color=blue&style=plastic)
 
 Jekyll Academic is a lightweight theme for any academic usecase. Perfect for portfolio websites, blogs, and academia. It is a simple no nonsense theme that offers many features.
 
@@ -18,12 +18,28 @@ Jekyll Academic is a lightweight theme for any academic usecase. Perfect for por
 - SEO optimised (robots.txt, sitemap.xml, jekyll-seo-tag)
 
 ## Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Jekyll Academic](#jekyll-academic)
+  - [Contents](#contents)
+  - [Installation](#installation)
+    - [Quick install](#quick-install)
+    - [Longer installation process](#longer-installation-process)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Development](#development)
+  - [License](#license)
 
 ## Installation
+
+### Quick install
+
+Download this [file](https://downgit.github.io/#/home?url=https://github.com/yak-fumblepack/jekyll-academic/blob/dev/scripts/bundle-install.sh) and run it.
+
+```shell
+$ ./bundle-install.sh
+```
+
+### Longer installation process
+
 Add this to your Jekyll site's Gemfile:
 
 ```ruby
