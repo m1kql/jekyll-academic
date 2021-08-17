@@ -18,19 +18,21 @@ Jekyll Academic is a lightweight theme for any academic usecase. Perfect for por
 - SEO optimised (robots.txt, sitemap.xml, jekyll-seo-tag)
 
 ## Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Jekyll Academic](#jekyll-academic)
+  - [Contents](#contents)
+  - [Installation](#installation)
+    - [Quick install](#quick-install)
+    - [Longer installation process](#longer-installation-process)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
 ### Quick install
 
-Download this [file](https://downgit.github.io/#/home?url=https://github.com/yak-fumblepack/jekyll-academic/blob/dev/scripts/bundle-install.sh) and run it.
-
 ```shell
-$ ./bundle-install.sh
+$ curl -s -L https://raw.githubusercontent.com/yak-fumblepack/jekyll-academic/master/scripts/bundle-install.sh | bash
 ```
 
 ### Longer installation process
